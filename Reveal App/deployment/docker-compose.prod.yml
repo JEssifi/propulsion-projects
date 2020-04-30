@@ -1,0 +1,36 @@
+version:  '3'
+
+services:
+
+
+  nginx:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "80:80" # only http
+      - "443:443" # https
+    volumes:
+      - frontend:/frontend
+      - /nginx:/etc/nginx/conf.d
+      - static-files:/static-files
+      - media-files:/media-files
+      - /etc/letsencrypt/:/etc/letsencrypt/
+
+  frontend:
+    image: registry.gitlab.propulsion-home.ch/reveal-app/frontend:latest
+    restart: always
+    command: 'sh /scripts/run_frontend_cmds.sh'
+    volumes:
+      - frontend:/frontend/build
+      - media-files:/media-files
+      - static-files:/static-files
+
+
+volumes:
+  frontend:
+
+
+"""networks:
+  elastic:
+    driver: bridge"""
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e8bb2f2-9c93-44a1-865b-28bbc50104d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aAYmAbVpeBz3TZWzI12FSyaTDn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e8bb2f2-9c93-44a1-865b-28bbc50104d9" name="Default Changelist" comment="" />
+      <created>1586180021706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586180021706</updated>
+      <workItem from="1586180024126" duration="771000" />
+      <workItem from="1586183118977" duration="37000" />
+      <workItem from="1586184750182" duration="1445000" />
+      <workItem from="1586252731331" duration="6728000" />
+      <workItem from="1586266807038" duration="3177000" />
+      <workItem from="1586330252399" duration="355000" />
+      <workItem from="1586352114289" duration="963000" />
+      <workItem from="1586432673185" duration="100000" />
+      <workItem from="1586433007390" duration="4006000" />
+      <workItem from="1586713948515" duration="1528000" />
+      <workItem from="1586786220363" duration="9000" />
+      <workItem from="1586786881326" duration="158000" />
+      <workItem from="1587480478124" duration="9000" />
+      <workItem from="1587480494893" duration="12000" />
+      <workItem from="1587901023861" duration="547000" />
+      <workItem from="1587903184954" duration="403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2265" y="564" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586262851641">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="2265" y="564" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.3440.1337@0.23.3440.1337" timestamp="1586262851641" />
+  </component>
+</project>

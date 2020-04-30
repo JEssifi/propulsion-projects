@@ -1,0 +1,48 @@
+stages:
+#  - pull_backend_dockerimage
+#  - pull_frontend_dockerimage
+#  - login
+  - cleanup
+  - deploy
+
+#before_script:
+#  - docker login -u "gitlab-ci-token" -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
+
+#pull_backend_dockerimage:
+#  stage: pull_backend_dockerimage
+#  script:
+#    - docker login registry.gitlab.propulsion-home.ch
+
+
+
+#pull_frontend_dockerimage:
+#  stage: pull_frontend_dockerimage
+#  script:
+#    - docker login registry.gitlab.propulsion-home.ch
+
+#test
+
+#login:
+#  stage: login
+#  script:
+    #- echo $CI_BUILD_TOKEN
+    #- echo $CI_REGISTRY
+#    - docker login -u "gitlab-ci-token" -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
+
+cleanup:
+  stage: cleanup
+  when: always
+  script:
+    - docker rmi -f "$CI_PIPELINE_ID":"$CI_COMMIT_REF_NAME"
+    - docker-compose -p "$CI_PIPELINE_ID" -f docker-compose.ci.yml down --remove-orphans
+
+deploy:
+  stage: deploy
+  #when: manual
+  script:
+    - docker login -u "gitlab-ci-token" -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
+    - docker-compose -f docker-compose.prod.yml pull
+    - docker-compose -f docker-compose.prod.yml down --remove-orphans
+    - docker-compose -f docker-compose.prod.yml up -d
+
+#Test

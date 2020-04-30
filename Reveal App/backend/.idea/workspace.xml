@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84e85191-b840-4f61-88bf-10c0d0f0ca46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/apps/document/extractors/pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/document/extractors/pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/document/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/document/migrations/0002_pdf_id_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/document/views/pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/document/views/pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/highlight/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/highlight/migrations/0002_highlight_id_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/highlight/migrations/0003_highlight_id_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registration/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registration/migrations/0002_auto_20200423_1716.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tag/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tag/migrations/0002_auto_20200423_1334.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="backend" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aRpoTHAy8mtiyfLjLvqce2vXAq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/registration" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84e85191-b840-4f61-88bf-10c0d0f0ca46" name="Default Changelist" comment="" />
+      <created>1586708436069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586708436069</updated>
+      <workItem from="1586708438592" duration="7325000" />
+      <workItem from="1586772367795" duration="2786000" />
+      <workItem from="1586776721968" duration="595000" />
+      <workItem from="1586779580672" duration="959000" />
+      <workItem from="1586786231864" duration="234000" />
+      <workItem from="1586848324056" duration="7281000" />
+      <workItem from="1587039094825" duration="8239000" />
+      <workItem from="1587121222723" duration="119000" />
+      <workItem from="1587121351362" duration="1352000" />
+      <workItem from="1587394773503" duration="284000" />
+      <workItem from="1587480505680" duration="2234000" />
+      <workItem from="1587482817687" duration="1217000" />
+      <workItem from="1587484819673" duration="2199000" />
+      <workItem from="1587488157670" duration="295000" />
+      <workItem from="1587641605496" duration="4458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1640" y="450" key="FileChooserDialogImpl" timestamp="1586708588782">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state x="1640" y="450" key="FileChooserDialogImpl/0.23.3440.1331@0.23.3440.1331" timestamp="1586708588782" />
+    <state width="2202" height="412" key="GridCell.Tab.0.bottom" timestamp="1587047621354">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.0.bottom/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621354" />
+    <state width="2202" height="412" key="GridCell.Tab.0.center" timestamp="1587047621354">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.0.center/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621354" />
+    <state width="2202" height="412" key="GridCell.Tab.0.left" timestamp="1587047621353">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.0.left/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621353" />
+    <state width="2202" height="412" key="GridCell.Tab.0.right" timestamp="1587047621354">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.0.right/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621354" />
+    <state width="2202" height="412" key="GridCell.Tab.1.bottom" timestamp="1587047621355">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.1.bottom/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621355" />
+    <state width="2202" height="412" key="GridCell.Tab.1.center" timestamp="1587047621355">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.1.center/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621355" />
+    <state width="2202" height="412" key="GridCell.Tab.1.left" timestamp="1587047621355">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.1.left/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621355" />
+    <state width="2202" height="412" key="GridCell.Tab.1.right" timestamp="1587047621355">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state width="2202" height="412" key="GridCell.Tab.1.right/0.23.3440.1331@0.23.3440.1331" timestamp="1587047621355" />
+    <state x="1361" y="327" key="SettingsEditor" timestamp="1587481341900">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state x="1361" y="327" key="SettingsEditor/0.23.3440.1331@0.23.3440.1331" timestamp="1587481341900" />
+    <state x="2075" y="542" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587654937245">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state x="2075" y="542" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.3440.1331@0.23.3440.1331" timestamp="1587654937245" />
+    <state x="1385" y="326" width="670" height="676" key="search.everywhere.popup" timestamp="1587486916847">
+      <screen x="0" y="23" width="3440" height="1331" />
+    </state>
+    <state x="1385" y="326" width="670" height="676" key="search.everywhere.popup/0.23.3440.1331@0.23.3440.1331" timestamp="1587486916847" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/registration/apps.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

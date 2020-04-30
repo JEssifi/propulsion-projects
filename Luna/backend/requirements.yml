@@ -1,0 +1,25 @@
+
+name: reveal
+channels:
+- conda-forge
+dependencies:
+  - python=3.6
+  - psycopg2
+  - pip:
+    - Django
+    - djangorestframework
+    - markdown
+    - djangorestframework_simplejwt
+    - coreapi==2.3.3
+    - psycopg2-binary==2.8.4
+    - gunicorn==20.0.4
+    - django-cors-headers==3.2.1
+    - django-multiselectfield==0.1.12
+    - Pillow==7.0.0
+    - django-elasticsearch-dsl==0.5.1
+    - django-elasticsearch-dsl-drf==0.16.3
+    - beautifulsoup4==4.6.3
+    - flake8==3.5.0
+    - pdftotext==2.1.1
+    - django-jwt-auth==0.0.2
+    

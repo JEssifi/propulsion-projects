@@ -1,0 +1,32 @@
+version:  '3'
+services:
+
+  postgres:
+    image: "postgres:latest"
+    container_name: "postgres_db"
+    ports:
+      - "5432:5432"
+    volumes:
+      - my_postgres:/var/lib/postgresql/data
+    env_file:
+      - ./envs/dev.env
+
+  backend:
+    image: registry.gitlab.propulsion-home.ch/reveal-app/backend:latest
+    restart: always
+    ports:
+      - "8000:8000"
+      - "5678:5678"
+    env_file:
+      - ./envs/dev.env
+    command: 'sh /scripts/dev.sh'
+    volumes:
+      - static-files:/static-files
+      - .:/backend
+    depends_on: 
+      - postgres
+
+volumes:
+  static-files:
+  my_postgres:
+  backend:

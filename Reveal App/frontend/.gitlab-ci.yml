@@ -1,0 +1,41 @@
+stages:
+  - pull
+  - build
+  - lint
+  - push
+  - deploy
+
+before_script:
+  - docker login -u "gitlab-ci-token" -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
+
+pull:
+  stage: pull
+  #allow_failure: true
+  script:
+    - docker pull "$CI_REGISTRY_IMAGE":latest
+
+build:
+  stage: build
+  script:
+    - docker build --tag="$CI_PIPELINE_ID":"$CI_COMMIT_REF_NAME" --cache-from="$CI_REGISTRY_IMAGE":latest .
+
+push image:
+  stage: push
+  only:
+    - master
+    - tags
+  script:
+    - docker tag "$CI_PIPELINE_ID":"$CI_COMMIT_REF_NAME" "$CI_REGISTRY_IMAGE":"$CI_COMMIT_REF_NAME"
+    - docker push "$CI_REGISTRY_IMAGE":"$CI_COMMIT_REF_NAME"
+
+push latest:
+  stage: push
+  script:
+    - docker tag "$CI_PIPELINE_ID":"$CI_COMMIT_REF_NAME" "$CI_REGISTRY_IMAGE":latest
+    - docker push "$CI_REGISTRY_IMAGE":latest
+
+trigger_build:
+  stage: deploy
+  when: manual
+  script:
+    - "curl -X POST -F token=4f97adba08af0f9738296215c23ffe -F ref=master https://gitlab.propulsion-home.ch/api/v4/projects/4033/trigger/pipeline"
